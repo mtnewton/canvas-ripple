@@ -1,4 +1,5 @@
 # canvas-ripple
+View the webpage at [mtnewton.github.io/canvas-ripple](http://mtnewton.github.io/canvas-ripple/).
 
 ## Requirements
  Requires [HTML5 compatible browser](http://caniuse.com/#feat=canvas).
