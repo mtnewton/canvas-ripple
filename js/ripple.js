@@ -4,9 +4,9 @@ var leave = 2;
 
 var settings = {
 	baseColor: {r:255, g:255, b:255},
-	rate: 5,
+	rate: 1,
 	offset: {x:0.5, y:0.5},
-	life: 10,
+	life: 20,
 	ease: Power1.easeOut,
 	border: 1
 }
