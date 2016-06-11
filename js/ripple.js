@@ -1,6 +1,6 @@
 var canvas, ctx, img;
 var toDraw = []
-var leave = 1;
+var leave = 2;
 
 var settings = {
 	baseColor: {r:255, g:255, b:255},
