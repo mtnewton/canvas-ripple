@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		
+		<title>Ripple - github.com/mtnewton</title>
+
+		<link rel="stylesheet" href="css/ripple.css" />
+		
+	</head>
+
+	<body onload="init()">
+		
+		<canvas id="canvas">
+			Canvas is not supported.
+		</canvas>
+		
+		<div id='menu'>
+			<button onclick="menu()">+</button>
+			<div id='options'>
+				<form>
+					<div class='break'></div>
+					<button type='button' onclick="screenshot()">Screenshot</button>
+					<div class='break line'></div>
+					<label for='spawnRate'>Spawn Rate</label><input type='text' id='spawnRate' value='5' title="(type float) Seconds between ripple spawns." />
+					<div class='break'></div>
+					<label for='offsetX'>OffsetX</label><input type='text' id='offsetX' value='0.5' title="(type float) Deviation from center. 0=center 1=Edge" />
+					<div class='break'></div>
+					<label for='offsetY'>OffsetY</label><input type='text' id='offsetY' value='0.5' title="(type float) Deviation from center. 0=center 1=Edge" />
+					<div class='break'></div>
+					<label for='lifetime'>Lifetime</label><input type='text' id='lifetime' value='10' title="(type float) Seconds to fill screen and be removed." />
+					<div class='break'></div>
+					<label for='baseColor'>Base Color</label><input type='color' id='baseColor' value='#FFFFFF' title="Color to mix with a random color." />
+					<div class='break'></div>
+					<label for='border'>Border</label><input type='text' id='border' value='1' title="(type int) Border size for the ripples." />
+					<div class='break line'></div>
+					<button type='button' class='ml-5' onclick="apply()">Apply</button>
+					<button type='reset'>Reset</button>
+					<div class='break'></div>
+				</form>
+			</div>
+		</div>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+		<script src="js/ripple.js"></script>
+		
+	</body>
+
+</html>

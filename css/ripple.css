@@ -1,0 +1,53 @@
+* { 
+	margin: 0; 
+	padding: 0;
+}
+
+body, 
+html { 
+	height:100%; 
+}
+
+#canvas {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#menu {
+	position:absolute;
+}
+
+#options{
+	position:relative;
+	display:none;
+	background-color: rgba(0,0,0,.5);
+	padding: 0 5px;
+	color: white;
+}
+
+#options input,
+#options button{
+	float: right
+}
+
+#options label {
+	padding-right:10px;
+}
+
+#options input {
+	width:5em;
+}
+
+.break {
+	padding-top:5px;
+	clear:both;
+}
+.line {
+	margin-bottom:5px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.ml-5 {
+	margin-left: 5px;
+}
